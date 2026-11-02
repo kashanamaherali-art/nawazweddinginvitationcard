@@ -1,0 +1,9 @@
+{
+  "name": "wedding-rsvp-function",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/functions/*.js",
+  "scripts": { "start": "func start", "test": "node --test test/core.test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "@azure/functions": "^4.5.0" }
+}

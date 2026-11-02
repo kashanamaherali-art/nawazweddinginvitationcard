@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "submissionId": { "type": "string" },
+    "submissionDate": { "type": "string" },
+    "guestName": { "type": "string" },
+    "contactNumber": { "type": "string" },
+    "totalGuests": { "type": "integer" },
+    "rasmEHina": { "type": "string" },
+    "sehraBandi": { "type": "string" },
+    "departureOfBarat": { "type": "string" },
+    "walima": { "type": "string" },
+    "additionalMessage": { "type": "string" }
+  },
+  "required": ["submissionId", "submissionDate", "guestName", "contactNumber", "totalGuests", "rasmEHina", "sehraBandi", "departureOfBarat", "walima"]
+}
