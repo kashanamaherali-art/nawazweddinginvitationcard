@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Muhammad Nawaz Bhatti – Wedding Invitation</title>
+  <meta name="description" content="You are cordially invited to the wedding of Muhammad Nawaz Bhatti. Rasm-e-Hina, Barat and Walima, 20–22 November 2026, Nankana Sahib.">
+  <meta name="theme-color" content="#e6d6c4">
+  <meta property="og:title" content="Muhammad Nawaz Bhatti – Wedding Invitation">
+  <meta property="og:description" content="Rasm-e-Hina, Barat and Walima, 20–22 November 2026, Nankana Sahib.">
+  <meta property="og:image" content="assets/images/couple.jpg">
+  <link rel="preload" as="image" href="assets/images/card-closed.jpg">
+  <!-- Fallback script font, used ONLY until Tempting / Birds of Paradise files are added to assets/fonts (see assets/fonts/README.md) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+
+<div id="music" hidden>
+  <button id="m-play" type="button" aria-label="Play music" aria-pressed="false"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span></button>
+  <button id="m-mute" type="button" aria-label="Mute music" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path id="m-wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+</div>
+<audio id="bgm" src="assets/audio/wedding-music.mp3" loop preload="none"></audio>
+
+<!-- Closed card: tap to open -->
+<div id="cover" role="button" tabindex="0" aria-label="Open the wedding invitation">
+  <div class="stage" id="stage">
+    <img class="photo" src="assets/images/card-closed.jpg" alt="">
+    <div class="interior"></div>
+    <img class="door l" src="assets/images/door-left.jpg" alt="">
+    <img class="door r" src="assets/images/door-right.jpg" alt="">
+    <img class="seal" src="assets/images/seal.png" alt="">
+  </div>
+  <button class="tap t" id="open" type="button">Open Invitation</button>
+</div>
+
+<main id="inv">
+  <section class="sec" id="s-welcome"><div class="bgl f"></div>
+    <div class="in">
+      <img class="ref bism" src="assets/images/bismillah.png" alt="Bismillah ir-Rahman ir-Rahim" data-fb="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ">
+      <p class="t iv gold rv">You’re cordially invited</p>
+      <p class="t tx eng rv">on the wedding ceremony of Ashfaq Bhatti’s beloved son</p>
+      <h1 class="nm gold rv"><span>Muhammad</span><span>Nawaz</span><span>Bhatti</span></h1>
+      <p class="t cue eng rv">Scroll down</p>
+    </div>
+  </section>
+
+  <section class="sec" id="s-date"><div class="bgl f"></div>
+    <div class="in">
+      <p class="t tx eng rv">With the blessings of Allah</p>
+      <img class="ref insh rv" src="assets/images/in-shaa-allah.png" alt="In Shaa Allah" data-fb="In Shaa ALLAH">
+      <h2 class="t hd gold rv">Save the Date</h2>
+      <p class="p dt eng rv">20, 21 &amp; 22 November 2026</p>
+      <p class="t tx eng rv">Three days of celebration with family, friends, and heartfelt prayers.</p>
+      <p class="p sm eng rv">All times are in Pakistan Standard Time</p>
+    </div>
+  </section>
+
+  <section class="sec" id="s-hina"><div class="bgl f"></div>
+    <div class="in">
+      <img class="ref insh rv" src="assets/images/in-shaa-allah.png" alt="In Shaa Allah" data-fb="In Shaa ALLAH">
+      <h2 class="p ehd gold rv">Rasm-e-Hina</h2>
+      <p class="p dt eng rv">Friday, 20 November 2026</p>
+      <p class="p tm eng rv">6:00 PM</p>
+      <p class="p ad eng rv"><b>Al Fateh Marriage Hall</b><br>Nankana Sahib, Pakistan</p>
+      <p class="p cl eng rv">Rasm-e-Hina begins in</p>
+      <div class="cd p rv" data-cd="hina"></div>
+      <a class="btn t rv" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/5ijWi6JC4totpVFn6">Get directions</a>
+    </div>
+  </section>
+
+  <section class="sec" id="s-barat"><div class="bgl f"></div>
+    <div class="in">
+      <img class="ref insh rv" src="assets/images/in-shaa-allah.png" alt="In Shaa Allah" data-fb="In Shaa ALLAH">
+      <h2 class="p ehd gold rv">Barat</h2>
+      <p class="p dt eng rv">Saturday, 21 November 2026</p>
+      <div class="two rv"><p class="p tm eng">8:00 AM<small>Sehra Bandi</small></p><p class="p tm eng">10:00 AM<small>Departure of Barat</small></p></div>
+      <p class="p ad eng rv"><b>Bhatti House (Ashfaq Bhatti)</b><br>Nankana Sahib, Pakistan</p>
+      <p class="p cl eng rv">Sehra Bandi begins in</p>
+      <div class="cd p rv" data-cd="barat"></div>
+      <a class="btn t rv" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/Tcw7osaGgmZAr4Xz7">Get directions</a>
+    </div>
+  </section>
+
+  <section class="sec walima" id="s-walima"><div class="bgl c"></div>
+    <div class="in">
+      <img class="ref insh rv" src="assets/images/in-shaa-allah.png" alt="In Shaa Allah" data-fb="In Shaa ALLAH">
+      <h2 class="p ehd gold rv">Walima</h2>
+      <p class="p dt eng rv">Sunday, 22 November 2026</p>
+      <p class="p tm eng rv">2:00 PM</p>
+      <p class="p ad eng rv"><b>Royal Marquee</b><br>Mangtanwala Road, Nankana Sahib</p>
+      <p class="p cl eng rv">Walima begins in</p>
+      <div class="cd p rv" data-cd="walima"></div>
+      <a class="btn t rv" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/woCR9DiXwZaR56259">Get directions</a>
+    </div>
+  </section>
+
+  <section class="sec" id="s-message"><div class="bgl f"></div>
+    <div class="in">
+      <h2 class="t hd gold rv">Your Presence Is Our Gift</h2>
+      <p class="t tx eng rv">With grateful hearts, we invite you to share in our happiness and bless this new journey with your kind presence and prayers.</p>
+      <h2 class="t hd gold rv" style="margin-top:.5em">See You There</h2>
+      <p class="t tx eng rv">May Allah fill this gathering with blessings, happiness, and beautiful memories.</p>
+    </div>
+  </section>
+
+  <section class="sec tall" id="s-loc"><div class="bgl f"></div>
+    <div class="in wide">
+      <h2 class="t hd gold rv">Locations</h2>
+      <div class="vc rv"><h3 class="t eng">Rasm-e-Hina</h3><p class="t eng">Al Fateh Marriage Hall, Nankana Sahib</p>
+        <iframe title="Map: Al Fateh Marriage Hall" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=31.4431226,73.6923472&z=16&output=embed"></iframe>
+        <a class="btn t small" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/5ijWi6JC4totpVFn6">Open in Google Maps</a></div>
+      <div class="vc rv"><h3 class="t eng">Barat</h3><p class="t eng">Bhatti House (Ashfaq Bhatti), Nankana Sahib</p>
+        <iframe title="Map: Bhatti House" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=31.444889,73.694099&z=16&output=embed"></iframe>
+        <a class="btn t small" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/Tcw7osaGgmZAr4Xz7">Open in Google Maps</a></div>
+      <div class="vc rv"><h3 class="t eng">Walima</h3><p class="t eng">Royal Marquee, Nankana Sahib</p>
+        <iframe title="Map: Royal Marquee" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=31.4145685,73.7529125&z=16&output=embed"></iframe>
+        <a class="btn t small" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/woCR9DiXwZaR56259">Open in Google Maps</a></div>
+      <h2 class="t hd gold rv" style="margin-top:.4em">Contact</h2>
+      <p class="t tx eng rv">For any queries, please call</p>
+      <a class="btn t rv" href="tel:+923008188193">0300 8188193</a>
+      <a class="btn t rv" href="tel:+923001788424">0300 1788424</a>
+    </div>
+  </section>
+
+  <section class="sec tall" id="s-rsvp"><div class="bgl f"></div>
+    <div class="in wide">
+      <h2 class="t hd gold rv">We Would Love to Celebrate With You!</h2>
+      <p class="t tx eng rv">Your presence and blessings will make our special moments even more memorable.</p>
+      <div class="evb rv" id="rsvp-buttons"></div>
+      <button class="btn t rv" id="rsvp-open" type="button">Confirm Your Attendance</button>
+      <p class="t tx eng rv" style="margin-top:.8em">With love and best wishes, we look forward to welcoming you!</p>
+      <button class="btn t small rv" id="to-top" type="button">Back to Invitation</button>
+    </div>
+  </section>
+</main>
+
+<dialog id="rsvp-dlg" aria-labelledby="rsvp-title">
+  <form id="rsvp-form" novalidate>
+    <button type="button" class="x" data-close aria-label="Close">×</button>
+    <h2 id="rsvp-title" class="t hd gold">Confirm Your Attendance</h2>
+    <label class="t">Full name<input name="name" required maxlength="80" autocomplete="name"></label>
+    <label class="t">Contact number<input name="phone" type="tel" inputmode="tel" required autocomplete="tel" placeholder="0300 1234567"></label>
+    <label class="t">Number of guests (including you)<input name="guests" type="number" inputmode="numeric" min="1" max="20" value="1" required></label>
+    <div id="rsvp-events"></div>
+    <button type="button" class="btn t small" id="rsvp-all">Select all occasions</button>
+    <label class="t">Additional message (optional)<textarea name="message" rows="3" maxlength="500"></textarea></label>
+    <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <p id="rsvp-err" class="err t" role="alert" hidden></p>
+    <button class="btn t" id="rsvp-send" type="submit">Send RSVP</button>
+  </form>
+  <div id="rsvp-ok" hidden>
+    <svg class="chk" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/><path d="M15 27l8 8 15-17"/></svg>
+    <h2 class="t hd gold">Thank you for your response!</h2>
+    <p class="t tx eng">We look forward to celebrating together.</p>
+    <button type="button" class="btn t" data-close>Close</button>
+  </div>
+</dialog>
+
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+<script src="js/rsvp.js"></script>
+</body>
+</html>
